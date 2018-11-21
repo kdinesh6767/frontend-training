@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #555;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #eee;
+    color: black;
+  }
+
+i{
+    float: left;
+    padding-right: 20px;
+}
+
+.material-icons.md-48{
+    font-size: 45px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.main_panel{
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.left_panel{
+    width: 60%;
+    
+}
+
+.right_panel{
+    width: 40%;
+    
+}
+
+.tab{
+    height: 25%;
+    clear: both;
+}
+
+.picture_left{
+    float: left;
+    clear: both;
+}
+
+.picture_right{
+    float:right;
+    clear:both;
+}
+
+p{
+    text-align: center;
+}
+
+.copyright_panel{
+    height: 20px;
+    background-color: #aaa;
+    clear:both;
+    text-align: center;
+}
+
+.column_panel {
+    float: left;
+    width: 25%;
+}
+
+.row_type {
+    display: table;
+    clear: both;
+}
+
+
+
+
