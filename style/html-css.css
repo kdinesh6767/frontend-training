@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+
+header {
+    overflow: hidden;
+    background-color: white;
+    padding: 20px 10px;
+  }
+  
+  header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+  header a:hover {
+    background-color: #777;
+    color: black;
+  }
+  
+  header a.active {
+    background-color: #777;
+    color: white;
+  }
+  
+  .header-right {
+    margin-top: 1%;
+    float: right;
+  }
+
+  header .triconLogo{
+    width:25%;
+  }
+  
+nav {
+    float: left;
+    width: 30%;
+    height: 100%; 
+    background: #ccc;
+    padding: 20px;
+}
+
+nav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+nav a:hover {
+    color: #f1f1f1;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: auto; 
+}
+
+article .imgLeft{
+    float: left;
+    margin-right: 2%;
+}
+
+article .imgRight{
+    float: right;
+
+}
+article p{
+    margin-bottom: 8%;
+}
+
+section:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.footer-details a{
+    margin-right: 18%;
+    color: white;
+    text-decoration: none;
+}
+
+/* @media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+} */
