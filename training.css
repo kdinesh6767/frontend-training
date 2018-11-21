@@ -1,0 +1,81 @@
+
+.tricon_logo{
+    width:50%;
+    float: left;
+   
+}
+ul{
+    list-style: none;
+    float: right;
+    font-size: 1.5em;
+ 
+}
+.nav_li{
+    display: inline;
+    font-size: 1.5em;
+    padding: 20px;
+    padding-top: 40px;
+
+    
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin-top:10px;
+    clear: both;
+}
+.image_container{
+    background-color: coral;
+    float: left;
+    font-size: 2em;
+    width:50%;
+    border: 2px solid black;
+}
+footer{
+    clear: both;
+    margin-top:2%;
+ 
+}
+.image_left{
+    float: left;
+    margin-right: 30px;
+}
+.image_right{
+    float: right;
+    margin-left: 30px;
+}
+
+.menu_container{
+    text-align: center;
+}
+.menu{
+    list-style-type: none;
+    font-size: 2em;
+    padding-top: 0%;
+    
+    
+}
+.copyright{
+    background-color: grey;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+ol,li{
+padding: 4%;
+padding-right: 0%;
+
+   
+}
+.column {
+    float: left;
+    width: 23.9%;
+    padding: 10px;
+ 
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
