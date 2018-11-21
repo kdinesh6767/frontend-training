@@ -1,0 +1,133 @@
+header{
+	border:1px solid black;
+	margin: 8px;
+    overflow: hidden;
+	background:  #4775d1;
+	/* height: 150px; */
+}
+.icon{
+	height:75px;
+	width: 75px;
+}
+.menu-left{
+	border:1px solid black;
+	float: left;
+	/* clear: both; */
+	width: 20%;
+	margin: 8px;
+}
+.menu-right{
+	float: left;
+	width: 75%;
+	border: 1px solid black;
+	margin: 8px;
+	align-self: right;
+
+}
+img{
+	height: 100%;
+	width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+section{
+    overflow: hidden;
+	background: gray;
+}
+.menu-horizontal{
+	overflow: hidden;
+    text-align: center;
+	
+	/* float: left; */
+	/* clear: both; */
+	border: 1px solid black;
+	margin: 8px;
+	/* width: 20%; */
+	/* align-self: center; */
+}
+
+.menu-horizontal li {
+	float: left;
+	align-items: right;
+}
+
+.menu-horizontal li a {
+	display: block;
+	float: right;
+	
+    color:white;
+    padding: 16px;
+    text-decoration: none;
+}
+.menu-vertical{
+	overflow: hidden;
+}
+.menu-vertical li{
+	display: block;
+}
+.menu-vertical li a{
+	display: block;
+    color:white;
+    padding: 16px;
+	text-decoration: none;
+	/* background: black; */
+	border: 1px solid black;
+	overflow: hidden;
+
+}
+.half-screen{
+	float: left;
+	/* clear: both; */
+	width: 45%;
+	border: 1px solid royalblue;
+}
+footer{
+	border: 1px solid blueviolet;
+	margin: 8px;
+	overflow: hidden;
+	background:  #4775d1;
+
+}
+
+footer li{
+	float: left;
+	/* clear: both; */
+	border: 1px solid black;
+	margin: 8px;
+	width: 20%;
+	align-self: center;
+}
+
+footer li ul{
+	border: 1px solid black;
+	margin: 8px;
+	/* width: 100%; */
+	align-self: center;
+}
+
+
+
+
+.vv{
+	border: 1px solid plum;
+
+}
+.menu-right{
+	float:left;
+	border:1px solid black;
+	margin: 8px;
+	height: 100%;
+
+
+}
+p{
+	border:1px solid black;
+
+}
+.menu-right li{
+	float: left;
+	border:1px solid black;
+	margin: 8px;
+
+}
