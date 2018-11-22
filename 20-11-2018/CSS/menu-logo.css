@@ -37,6 +37,9 @@ header{
 		display: inline;
 		vertical-align: middle;
 }
+.js{
+	font-size: 20px;
+}
 #CSS::before{
 	padding-right: 10px;
 	font-family: "FontAwesome";
@@ -129,10 +132,6 @@ section a{
 		margin: 0 30px 2px 30px;
 		font-size: larger;
 		padding-right: 10px;
-		font-family: "FontAwesome";
-		content: "\f000";
-		display: inline-block;
-		vertical-align: middle;
 		width: 100%;
 	
 }
