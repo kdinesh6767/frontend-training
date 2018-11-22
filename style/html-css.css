@@ -9,8 +9,7 @@ body {
 
 header {
     overflow: hidden;
-    background-color: white;
-    padding: 20px 10px;
+
   }
   
   header a {
@@ -19,12 +18,13 @@ header {
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
     border-radius: 4px;
+    
   }
   header a:hover {
     background-color: #777;
-    color: black;
+    color: white;
   }
   
   header a.active {
@@ -33,19 +33,47 @@ header {
   }
   
   .header-right {
-    margin-top: 1%;
-    float: right;
+    display:inline;
+
   }
 
   header .triconLogo{
-    width:25%;
+     width:18%;
+
   }
+
+   header ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #950740;
+}
+
+header li {
+    float: right;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: #777;
+}
+.icons{
+    float: left;
+    color: white;
+    margin-top: 14%;
+}
+
   
 nav {
     float: left;
     width: 30%;
     height: 100%; 
-    background: #ccc;
     padding: 20px;
 }
 
@@ -54,32 +82,48 @@ nav a {
     text-decoration: none;
     font-size: 25px;
     color: #818181;
-    display: block;
+    display: inline;
 }
 
 nav a:hover {
-    color: #f1f1f1;
+    color: #777;
+    
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    margin-bottom: 20%;
+}
+
+.nav-icons{
+float: left;
 }
 
 article {
     float: left;
     padding: 20px;
     width: 70%;
-    background-color: #f1f1f1;
+    background-color: #C5C6C7;
     height: auto; 
+    margin-bottom: 2%;
 }
 
 article .imgLeft{
     float: left;
     margin-right: 2%;
+    width:235px;height:170px;margin-left:15px;
 }
 
 article .imgRight{
     float: right;
+    width:235px;height:170px;margin-left:15px;
 
 }
 article p{
     margin-bottom: 8%;
+    text-align: justify;
 }
 
 section:after {
@@ -89,16 +133,31 @@ section:after {
 }
 
 footer {
-    background-color: #777;
+    background-color:#1A1A1D;
     padding: 10px;
-    text-align: center;
     color: white;
 }
+footer p{
+    text-align: center;
+}
 
-.footer-details a{
-    margin-right: 18%;
+footer a{
     color: white;
     text-decoration: none;
+    margin-left: 12%;
+    margin-right: 5%;
+}
+footer ul {
+    list-style-type: none;
+    display: block;
+    color: white;
+    
+}
+.footer-list{
+    margin-right: 5%;
+}
+.footer-list li{
+    display: inline;
 }
 
 /* @media (max-width: 600px) {
