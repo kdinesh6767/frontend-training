@@ -94,6 +94,7 @@ h2{
 }
 p{
     padding: 0 5% 0 5%;
+    font-size: 16px;
 }
 
 .text{
@@ -205,6 +206,7 @@ h4 {
     content: "home";
     font-size: 20px;
     padding: 10px;
+    vertical-align: bottom;
 }
 
 .topnav .about_icon::before{
@@ -212,6 +214,7 @@ h4 {
     content: "flag";
     font-size: 20px;
     padding: 10px;
+    vertical-align: bottom;
 }
 
 .topnav .history_icon::before{
@@ -219,6 +222,7 @@ h4 {
     content: "weekend";
     font-size: 20px;
     padding: 10px;
+    vertical-align: bottom;
 }
 
 .topnav .research_icon::before{
@@ -226,4 +230,5 @@ h4 {
     content: "waves";
     font-size: 20px;
     padding: 10px;
+    vertical-align: bottom;
 }
