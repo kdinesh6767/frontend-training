@@ -1,0 +1,76 @@
+.right_div {
+
+    height: 100%;
+    width: 50%;
+    text-align: left;
+    float: right;
+    position: relative;
+
+}
+
+.right_div:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid white;
+    position: absolute;
+    top: 130px;
+    left: -30px;
+}
+
+section {
+    height: 350px;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.left_div {
+    height: 350px;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+
+
+}
+
+.button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+img {
+    -webkit-transition: all 300ms 0ms ease-in-out;
+    transition: all 300ms 0ms ease-in-out;
+}
+
+img:hover {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.text {
+    box-sizing: border-box;
+    height: 73%;
+    padding: 0 10px 0 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
