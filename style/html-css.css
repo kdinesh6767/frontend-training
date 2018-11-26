@@ -41,6 +41,15 @@ header {
      width:18%;
 
   }
+  /* .home:before{
+    content: "";
+    display: block;
+    background: url("https://material.io/tools/icons/?icon=info&style=baseline") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+  } */
 
    header ul {
     list-style-type: none;
