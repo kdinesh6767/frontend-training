@@ -1,0 +1,95 @@
+body{
+    font-family:'Noto Sans TC', sans-serif;
+    background: #bdc3c7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bdc3c7, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+    width:100%;
+    background-color:#fff;
+    position:relative;
+    margin-top:10%;
+    border-radius:8px;
+    height:500px;
+    background:#cceeff;  /* fallback for old browsers */
+}
+.col-1{
+    float: left;
+    width:50%;
+}
+.img-fluid{
+    width:100%;
+    height:500px;
+    border-radius: 8px 0 0 8px;
+}
+.container_image{
+    overflow: hidden;
+}
+.container_image img{
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+}
+.container_image img:hover{
+   -webkit-transform: scale(1.4);
+   transform: scale(1.4);
+}
+.col-2{
+    float: right;
+    width:50%;
+    height:500px;
+}
+.align-right{
+    text-align: right;
+}
+.ellipsis{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.btn-classic{
+    cursor: pointer;
+    background-color: #2F80ED;
+    border: none;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 20%;
+    border-radius: 7px;
+    padding: 12px;
+}
+.btn-classic:hover{
+    background-color:#002233;
+    border: none;
+    color: white;
+}
+.display-button{
+    position: absolute;
+    left: 90%;
+    top: 81%;
+    right: 1%;
+}
+.container_text{
+    padding:20px;
+    
+}
+.container_text_heading{
+    color:#004466;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+.container_text:before {
+	right: 50%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+    border-color: rgba(194, 225, 245, 0);
+	border-right-color: #cceeff;
+	border-width: 26px;
+	margin-top: -26px;
+}
