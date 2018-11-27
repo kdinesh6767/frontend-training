@@ -1,73 +1,82 @@
+*{
+    margin: 0 auto;
+}
 body {
     background-color: white;
     color: azure;
-    font-size: 1.3em;
+    /*font-family: palatino;*/
 }
 section {
     
-    height:400px;
+    height:300px;
     overflow: hidden;
 }
 .image_container{
     width:50%;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
     float:left;
     height: auto;
 }
 .image_container:hover { 
-    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5 );
  }
 
 .right_container {
     position: relative;
     width:50%;
-    /*overflow: hidden;*/
     float:right;
-    background-color: lightgrey;
+    padding: 20px;
+    background-color:#C79B71;
     box-sizing: border-box;
     height:100%;
 }
 .text_container {
-    box-sizing: border-box;
-    height: 73%;
-    padding: 0 10px 0 10px;
+    height: 78%;
     display: -webkit-box;
-    -webkit-line-clamp: 9;
+    -webkit-line-clamp: 8;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis;
 }
 .text_container p{
-    padding:10px;
-    color:darkslategrey;
+    padding-top:15px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
-.text_container h2{
-    margin:5px; 
-    color:darkcyan;   
+.text_container h1{
+    color:#5B3C1E;
+    font-family: Apple Chancery, cursive;
+    font-size: 32px;   
 }
-
 .btn_container {
+    /*position: absolute;*/
     position: absolute;
-    bottom: 5px;
-    left:80%;
-    background-color: darkcyan;
+    bottom: 20px;
+    right:20px;
+    background-color: #5B3C1E;
     border: none;
-    color: black;
-    padding: 10px;
+    color: #C79B71;
+    padding:10px;
     text-align: center;
     font-size: 20px;
+    font-family: Apple Chancery, cursive;
     border-radius: 5px;
     cursor: pointer;
     }
 
 .text_container:before {
     content: "";
-    display: block;
+    /*display: block;*/
     width: 0; 
     height: 0; 
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
-    border-right: 50px solid lightgrey; 
+    border-right: 50px solid #C79B71; 
     position: absolute;
-    top: 30%;
-    left: -45px;
+    transform: translateY(-50%);
+    top: 50%;
+    right:99%;
+    vertical-align: center;
 }
