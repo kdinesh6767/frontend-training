@@ -18,6 +18,7 @@ body{
 .row{
     
     height: 400px;
+    
 }
 .col-2{
     float:left;
@@ -34,15 +35,16 @@ body{
     transform: scale(1.5);
     transition: all 1s
 }  */
-h2{
-     margin-bottom: 5px;
-}
 .content{
 
     padding: 20px;
     background-color: #ccc;
     position: relative;
 }
+.content h2{
+     margin-bottom: 5px;
+}
+
 .description{
     height:80%;
     overflow: hidden;
@@ -50,41 +52,54 @@ h2{
 .image{
     overflow: hidden;
     position: relative;
+        
+   
 }
 .wrapper{
     width: 100%;
-   height:400px; 
+   height:400px;
+ 
+   
 }
 .wrapper img{
    width: 100%;
    height:400px;
+   transition: all 1s ease;
+   
   
 }
-.image:hover img{
+img:hover{
     transform: scale(1.5);
-    transition: all 1s
+    
 }
-
-a {
+.btn {
     background-color: red;
     color: white;
+    border: 0px;
+    border-radius: 4px;
     padding: 1em 1.5em;
     text-decoration: none;
     text-transform: uppercase;
     position: absolute;
     right:10px;
     bottom: 10px;
+    outline: none;
     border-radius: 2px;
+    cursor: pointer;
+  }
+  .btn:hover,
+  .btn-active{
+      outline: none;
+      background-color: #555;
+
   }
   
-  a:hover {
-    background-color: #555;
-  }
 
   .wrapper::after{
     content:"";
     position: absolute;
-    top:35%;
+    top:50%;
+    transform: translateY(-50%);
     right: 0;
     width: 0;
     height: 0;
