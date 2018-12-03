@@ -1,0 +1,105 @@
+
+*{
+    margin :0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+     
+.clearfix::after {
+     content: "";
+     clear: both;
+     }
+      
+.banner, .image{
+        display: block;
+         width:100%;
+         height:500px;
+         text-align:center;
+         
+       
+         position:relative;
+         margin-top:10%;
+     }
+     
+.heading{
+
+    background-color: transparent;
+    position:absolute;
+    text-align: center;
+    width:100%;
+   top:35%;
+   color:white;
+}
+
+h1{
+    font-size: 40px;
+    padding:15px;
+}
+ h3{
+     font-size: 16px;
+     padding:15px;
+ }
+.fa-angle-right{
+ float:right;
+ color:#fff;
+    font-size:40px;
+    opacity:0.5;
+    font-family: FontAwesome;
+}
+.fa-angle-left{
+    
+    float:left;
+  color:#fff;
+    font-size:40px;
+    opacity:0.5;
+    font-family: FontAwesome;
+}
+.fa-angle-left:hover{
+opacity: 1;
+}
+.fa-angle-right:hover{
+    opacity:1;
+}
+    
+.clearfix::after {
+    content: "";
+    clear: both;
+    }
+
+    body{
+        content: "";
+        clear: both;
+        margin:0;
+        padding:0;
+    }
+   
+    .walkthrough{
+        position: absolute;
+    top: 90%;
+    border: 1px solid #000000;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border-radius: 1px;
+    border-radius: 50%;
+       
+    }
+    .firstcircle{
+        left: 45%;
+    }
+    .seccircle{
+        left: 47%;
+    }
+    .thirdcircle{
+        left:49%;
+
+    }
+    .fourthcircle{
+        left:51%;
+    }
+    .fifthcircle{
+        left:53%;
+    }
+    .walkthrough:hover{
+        background-color: #F44336;
+    }
