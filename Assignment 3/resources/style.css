@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:antiquewhite;
+}
+
+.carousel {
+    height: 500px;
+    width: 100%;
+}
+
+.carousel .image-container .carousel-image{
+    height: 100%;
+    width: 100%;
+}
+
+.right-chevron {
+    font-size:  40px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(-50%,-50%);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.right-chevron:hover{
+    opacity: 1;
+}
+
+.left-chevron {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(-50%,-50%);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.left-chevron:hover{
+    opacity: 1;
+}
+
+.heading-text {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.sub-text {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+}
+
+.text-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.seeker {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    bottom: 20px;
+    left: 50%;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: inline-block;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.dot:hover{
+    background-color: #f44336;
+}
+
+.seek-buttons{
+    list-style-type: none;
+}
+
+.carousel-links{
+    display: inline;
+    float: left;
+    padding:0  3px;
+}
+
+
