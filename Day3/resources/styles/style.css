@@ -50,17 +50,8 @@ body{
     font-size: 8rem;
     opacity: .5;
 }
-.banner__right-arrow i{
-    font-size: 8rem;
-    opacity: .5;
-}
-
 .banner__left-arrow i:hover{
 
-    opacity: 1;
-}
-.banner__right-arrow i:hover{
-   
     opacity: 1;
 }
 
@@ -73,19 +64,31 @@ body{
     color: #fff;
     
 }
+.banner__right-arrow i{
+    font-size: 8rem;
+    opacity: .5;
+}
+
+
+.banner__right-arrow i:hover{
+   
+    opacity: 1;
+}
+
+
 .banner__navigation{
     position: absolute;
     list-style: none;
     
-    bottom:10%;
+    bottom:8%;
     left:50%;
     transform: translateX(-50%);
 }
 
 .banner__navigation li{
     display: inline-block;
-    width:25px;
-    height:25px;
+    width:2.5rem;
+    height:2.5rem;
     margin:1.5rem;
     border: 1px solid #fff;
     border-radius: 50%;
