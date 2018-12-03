@@ -1,0 +1,113 @@
+.bannerSection{
+    position: relative;
+}
+body{
+    font-family: 'Cinzel', serif;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    /* border: 10 px solid darkcyan; */
+    overflow: hidden;
+}
+
+.headingText{
+    font-size: 40px;
+    color:#ffff;
+    position: absolute;
+    top: 35%;
+    left: calc(50% - 40px);
+    text-align: center;
+}
+
+.subHeadingText{
+    font-size: 16px;
+    color:#ffff;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 90px);
+    text-align: center;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.background{
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.banner:before{
+    font-family: "FontAwesome";
+
+    content: "\f104";
+    color: #ffff;
+    font-size: 100px;
+    opacity: 0.5;
+    position: absolute;
+    left: 20px;
+    top: calc(50% - 10px);
+}
+
+.banner:after{
+   
+    font-family: "FontAwesome";
+		content: "\f105";
+    color: #ffff;
+    font-size: 100px;
+    opacity: 0.5;
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 10px);
+  
+}
+.banner:hover::before{
+    opacity: 1;
+    /* background-color: brown; */
+}
+.banner:hover::after{
+    opacity: 1;
+    /* background-color: brown; */
+}
+
+.circle {
+    /* background-color: red; */
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    opacity: .5;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: transparent;
+}
+
+.circle:hover{
+    background-color: #f44336;
+    opacity: 1;
+}
+
+.pageSelector{
+    position: absolute;
+    /* bottom: calc(100% - 10px); */
+    display: flex;
+    top: auto;
+    left: calc(50% - 90px);
+    top: calc(100% - 50px);
+}
+
+.deadpool{
+    background-image: url("../images/deadpool.jpg");
+    }
+    .art{
+    background-image: url("../images/Art.jpg");
+    
+    }
+    .blue-art{
+    background-image: url("../images/blue-art.jpg");
+    }
+    .venice{
+    background-image: url("../images/venice.jpg");
+    }
